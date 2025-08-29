@@ -1,13 +1,17 @@
 body {
-    background-color: #023047;
+    background-color: #001d27;
 }
 .page {
     background-color: #fff;
     --bs-gutter-x: 0;
 }
 
+.navbar img {
+    max-height: 3em;
+}
+
 .navbar {
-    border-bottom: 3px solid #ffb703 !important;
+    border-bottom: 3px solid #fee440 !important;
    font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -15,8 +19,8 @@ body {
   font-size: 1.25em;
 }
 .header {
-    border-bottom: 3px solid #ffb703 !important;
-    border-top: 3px solid #ffb703 !important;
+    border-bottom: 3px solid #fee440 !important;
+    border-top: 3px solid #fee440 !important;
     text-align: center;
     color: #212529;
     padding: .5em;
@@ -24,7 +28,7 @@ body {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-size: 1.25em;
+  font-size: 2em;
 }
 
 .carousel {
@@ -34,6 +38,10 @@ body {
 
 .marketing {
     padding: 1.5em;
+}
+
+.btn-primary {
+    background-color: #00bbf9;
 }
 
 h3{
@@ -50,7 +58,7 @@ h3{
 }
 .content p {
     padding: 1em;
-    background-color: #3f51b5;
+    background-color: #00bbf9;
     color: #fff;
 }
 
