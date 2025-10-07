@@ -12,9 +12,8 @@ body {
 
 .navbar {
     border-bottom: 3px solid #fee440 !important;
-   font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+   font-family: "DM Serif Text", serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 1.25em;
 }
@@ -31,6 +30,7 @@ body {
   font-size: 2em;
 }
 
+
 .carousel {
     margin-bottom: 0;
     margin-top: 3em;
@@ -46,16 +46,25 @@ body {
 
 h1 {
     margin-top: 3em;
+     font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
+h2 {
+    font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 h3{
     background-color: #ffeb3b;
     text-align: center;
     color: #212529;
     margin-bottom: 0px;
     padding: .5em;
-    font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+    font-family: "DM Serif Text", serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 1.25em;
 }
