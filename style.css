@@ -86,3 +86,17 @@ h3{
 .shadow {
     box-shadow: 10px 10px 5px rgb(0, 0, 0);
 }
+
+footer p {
+
+    font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  
+    
+}
+
+footer {
+    padding: 2rem;
+}
