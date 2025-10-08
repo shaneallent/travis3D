@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/travis3D/repositories/travis3D
+    - export DEPLOYPATH=/home/travis3D/public_html
     - /bin/cp -R images $DEPLOYPATH
