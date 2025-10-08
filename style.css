@@ -10,7 +10,7 @@ body {
     padding: 1.5rem;
     margin-top: 1.5rem;
 }
-.gallery row img {
+.gallery .row {
     padding: 1.5rem !important;
 }
 
