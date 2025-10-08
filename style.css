@@ -6,8 +6,16 @@ body {
     --bs-gutter-x: 0;
 }
 
+.gallery {
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+}
+.gallery row img {
+    padding: 1.5rem !important;
+}
+
 .navbar img {
-    max-height: 3em;
+    max-height: 3rem;
 }
 
 .navbar {
@@ -15,7 +23,7 @@ body {
    font-family: "DM Serif Text", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.25em;
+  font-size: 1.25rem;
 }
 .header {
     border-bottom: 3px solid #fee440 !important;
@@ -27,17 +35,17 @@ body {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 
 .carousel {
     margin-bottom: 0;
-    margin-top: 3em;
+    margin-top: 3rem;
 }
 
 .marketing {
-    padding: 1.5em;
+    padding: 1.5rem;
 }
 
 .btn-primary {
@@ -45,10 +53,11 @@ body {
 }
 
 h1 {
-    margin-top: 3em;
+    margin-top: 6rem;
      font-family: "DM Serif Text", serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 3.5rem;
 }
 
 h2 {
@@ -62,14 +71,14 @@ h3{
     text-align: center;
     color: #212529;
     margin-bottom: 0px;
-    padding: .5em;
+    padding: .5rem;
     font-family: "DM Serif Text", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.25em;
+  font-size: 1.25rem;
 }
 .content p {
-    padding: 1em;
+    padding: 1rem;
     background-color: #00bbf9;
     color: #fff;
 }
