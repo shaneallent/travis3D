@@ -1,232 +1,195 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Charlotte NC 3D Studio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-
-    <link href="carousel.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <title>Charlotte NC 3D Design Studio | Product Renders & 3D Printing</title>
+    <meta name="description" content="Professional 3D design studio in Charlotte NC. Custom product renders, 3D scanning, photogrammetry, and 3D printing services for businesses and creators.">
+    <link rel="canonical" href="https://travis3d.com/">
+    <meta property="og:title" content="Charlotte NC 3D Design Studio">
+    <meta property="og:description" content="High-quality 3D design services: product visualization, 3D scanning, custom environments, and 3D printing.">
+    <meta property="og:image" content="https://travis3d.com/img/packaged2resize.png">
+    <meta property="og:url" content="https://travis3d.com/">
+    <meta property="og:type" content="business.business">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" type="image/x-icon" href="favicon.png">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
+    <link href="style.css" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://travis3d.com",
+        "name": "Travis3D, Inc",
+        "image": "https://travis3d.com/img/logoflatalt4.png",
+        "description": "Professional 3D design studio in Charlotte NC offering product visualization, 3D scanning, photogrammetry, custom environments, and 3D printing services.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Charlotte",
+            "addressRegion": "NC",
+            "addressCountry": "US"
+        },
+        "telephone": "704.998.1464",
+        "email": "Stravis3D@gmail.com",
+        "url": "https://travis3d.com",
+        "areaServed": "Charlotte, NC"
+    }
+    </script>
 </head>
 
 <body>
-    <main>
-        <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark" aria-label="Third navbar example">
-            <div class="container">
-                <!--<a class="navbar-brand" href="#">TRAVIS 3D</a> -->
-                <a href="index.html"><img class="img-fluid logo" src="img/logoflatalt4.png" height="3em"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false"
-                    aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-                <div class="collapse navbar-collapse" id="navbarsExample03">
-                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
-                        <!--
-                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
-                                data-bs-toggle="dropdown" aria-expanded="false">Product Visualization</a>
-                            
-                                <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Scanning & Cleanup</a></li>
-                                <li><a class="dropdown-item" href="#">Digital Prototype Visualization</a></li>
-                                <li><a class="dropdown-item" href="#">3D Printed Physical Prototype</a></li>
-                            </ul>
-                            
-                        </li>
-                    -->
-                        <li class="nav-item"> <a class="nav-link" href="product.html">Product
-                                Visualization</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="scan.html">Scans & Processing</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="custom.html">Custom Creations</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="print.html">3D Printing</a> </li>
+    <div class="page">
 
-                        <li class="nav-item"> <a class="nav-link" href="gallery.html">Gallery</a> </li>
-
-
-                    </ul>
-
-                </div>
+        <nav class="site-nav" aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo"><img src="img/logoflatalt4.png" alt="Travis 3D"></a>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="product.html">Product Visualization</a></li>
+                    <li><a href="scan.html">Scans &amp; Processing</a></li>
+                    <li><a href="custom.html">Custom Creations</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="print.html">3D Printing</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
             </div>
         </nav>
-        <div class="container page">
-            <div id="myCarousel" class="carousel slide mb-6 pointer-event shadow" data-bs-ride="carousel">
-                <div class="carousel-indicators"> <button type="button" data-bs-target="#myCarousel"
-                        data-bs-slide-to="0" class="" aria-label="Slide 1"></button> <button type="button"
-                        data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active"
-                        aria-current="true"></button> <button type="button" data-bs-target="#myCarousel"
-                        data-bs-slide-to="2" aria-label="Slide 3" class=""></button> </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item">
-                        <img class="img-fluid" src="img/gameroom_4-7-1.png" alt="Girl in a jacket">
-                        <div class="container">
-                            <div class="carousel-caption text-start">
-                                <h1>Custom Environments</h1>
-                                <p class="opacity-75">Stylized scenes for backdrops and marketing imagery</p>
-                                <p><a class="btn btn-lg btn-primary" href="custom.html">Learn More</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item active">
-                        <img class="img-fluid" src="img/packaged2resize.png" alt="Girl in a jacket">
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1>Product Renders</h1>
-                                <p>Designed, stylized, and rendered scenes of your products</p>
-                                <p><a class="btn btn-lg btn-primary" href="product.html">Learn more</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="img-fluid" src="img/madwell_livery_r1.png" alt="Girl in a jacket">
-                        <div class="container">
-                            <div class="carousel-caption text-end">
-                                <h1>3D Scan cleanup and retopolgy</h1>
-                                <p>Scanning Objects & post processing </p>
-                                <p><a class="btn btn-lg btn-primary" href="scan.html">Learn More</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div> <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
-                    data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span
-                        class="visually-hidden">Previous</span> </button> <button class="carousel-control-next"
-                    type="button" data-bs-target="#myCarousel" data-bs-slide="next"> <span
-                        class="carousel-control-next-icon" aria-hidden="true"></span> <span
-                        class="visually-hidden">Next</span> </button>
-            </div>
 
-
-            <div class="marketing"> <!-- Three columns of text below the carousel -->
-                <!--
-                <div class="row">
-                    <div class="col-lg-4"> <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle"
-                            height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <h2 class="fw-normal">Heading</h2>
-                        <p>Some representative placeholder content for the three columns of text below the carousel.
-                            This is the first column.</p>
-                        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        <section class="hero">
+            <div class="hero-slider">
+                <div class="hero-slide" style="background-image:url('img/gameroom_4-7-1.png')">
+                    <div class="hero-overlay">
+                        <h1>Custom Environments</h1>
+                        <p>Professional backdrops and marketing scenes</p>
+                        <a href="custom.html" class="btn btn-primary">Learn More</a>
                     </div>
-                    <div class="col-lg-4"> <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle"
-                            height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <h2 class="fw-normal">Heading</h2>
-                        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the
-                            second column.</p>
-                        <p><a class="btn btn-secondary" href="#">View details »</a></p>
-                    </div>
-                    <div class="col-lg-4"> <svg aria-label="Placeholder" class="bd-placeholder-img rounded-circle"
-                            height="140" preserveAspectRatio="xMidYMid slice" role="img" width="140"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <h2 class="fw-normal">Heading</h2>
-                        <p>And lastly this, the third column of representative placeholder content.</p>
-                        <p><a class="btn btn-secondary" href="#">View details »</a></p>
-                    </div>
-                    
-            </div>
--->
-
-                <div class="row featurette">
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading fw-normal lh-1">Product Design & Render
-                        </h2>
-                        <p class="lead">From product prototyping to digital 3D scan replica renders, we showcase your
-                            products by creating high quality digital media for both internal presentations and
-                            marketing and advertising materials</p>
-                        <p><a class="btn btn-lg btn-primary" href="product.html">Learn more</a></p>
-                    </div>
-
-                    <figure class="figure col-md-5">
-                        <img src="img/boomtest20png.png" class="figure-img img-fluid"
-                            alt="A generic square placeholder image with rounded corners in a figure.">
-                        <figcaption class="figure-caption">VinTECH Boombox Render</figcaption>
-                    </figure>
                 </div>
-                <hr class="featurette-divider">
-                <div class="row featurette">
-                    <div class="col-md-7 order-md-2">
-                        <h2 class="featurette-heading fw-normal lh-1">3D Scanning and Processing</h2>
-                        <p class="lead">3D Scanning services include photogrammetry scans of single, indivdual objects
-                            as well as recreating larger areas. We process scans using retopology techniques to provide
-                            a
-                            clean, easy to use end result that will look great on any 3D platform</p>
-                        <p><a class="btn btn-lg btn-primary" href="scan.html">Learn more</a></p>
+                <div class="hero-slide active" style="background-image:url('img/packaged2resize.png')">
+                    <div class="hero-overlay">
+                        <h1>Product Renders</h1>
+                        <p>High-quality visualizations from concept to final render</p>
+                        <a href="product.html" class="btn btn-primary">Learn More</a>
                     </div>
-                    <figure class="figure col-md-5">
-                        <img src="img/beforeafterplane.png" class="figure-img img-fluid"
-                            alt="A generic square placeholder image with rounded corners in a figure.">
-                        <figcaption class="figure-caption">Before and after of an interior airplane scan and retopology
-                        </figcaption>
-                    </figure>
-
                 </div>
-                <hr class="featurette-divider">
-                <div class="row featurette">
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading fw-normal lh-1">Custom Created Scenes and Environments</h2>
-                        <p class="lead">Not only can we provide top notch product renders and visuals, we can also
-                            construct custom scenes made from scratch, or accompanying 3D scanned objects for added
-                            realism</p>
-                        <p><a class="btn btn-lg btn-primary" href="custom.html">Learn more</a></p>
+                <div class="hero-slide" style="background-image:url('img/madwell_livery_r1.png')">
+                    <div class="hero-overlay">
+                        <h1>3D Scanning &amp; Processing</h1>
+                        <p>Production-ready models from photogrammetry scans</p>
+                        <a href="scan.html" class="btn btn-primary">Learn More</a>
                     </div>
-
-                    <figure class="figure col-md-5">
-                        <img src="img/office 3-31-2.png" class="figure-img img-fluid"
-                            alt="A generic square placeholder image with rounded corners in a figure.">
-                        <figcaption class="figure-caption">custom stylized scene using company colors throughout
-                        </figcaption>
-                    </figure>
-
                 </div>
-                <hr class="featurette-divider">
-                <div class="row featurette">
-                    <div class="col-md-7 order-md-2">
-                        <h2 class="featurette-heading fw-normal lh-1">3D Printing and Visual Prototyping</h2>
-                        <p class="lead">We offer a range of 3D printing related services including custom office
-                            accessories and business cards, custom made awards and trophies, product prototype
-                            visualization, and more </p>
-                        <p><a class="btn btn-lg btn-primary" href="print.html">Learn more</a></p>
-                    </div>
-
-                    <figure class="figure col-md-5">
-                        <img src="img/il_794xN.7220168767_p4e3.webp" class="figure-img img-fluid"
-                            alt="A generic square placeholder image with rounded corners in a figure.">
-                        <figcaption class="figure-caption">A caption for the above image.</figcaption>
-                    </figure>
-                </div> <!-- /END THE FEATURETTES -->
             </div>
-            <div class="container">
-                <footer class="border-top">
-                    <p class="text-center">&copy; 2025 Travis3D, Inc - <i class="bi bi-telephone-outbound-fill"></i>
-                        704.998.1464 - <i class="bi bi-envelope-at-fill"></i> Stravis3D@gmail.com</p>
+            <div class="hero-dots">
+                <button class="hero-dot" aria-label="Slide 1"></button>
+                <button class="hero-dot active" aria-label="Slide 2"></button>
+                <button class="hero-dot" aria-label="Slide 3"></button>
+            </div>
+        </section>
 
-                </footer>
+        <section class="features">
+            <div class="feature-row">
+                <div class="feature-text">
+                    <h2>Product Visualization</h2>
+                    <p>We create high-fidelity product visualizations for presentations, marketing, and advertising campaigns—from concept through final render.</p>
+                    <a href="product.html" class="btn btn-primary">Learn More</a>
+                </div>
+                <figure class="feature-media">
+                    <img src="img/boomtest20png.png" alt="VinTECH Boombox Render">
+                    <figcaption class="feature-caption">VinTECH Boombox Render</figcaption>
+                </figure>
             </div>
 
-        </div>
+            <div class="feature-row reverse">
+                <div class="feature-text">
+                    <h2>3D Scanning &amp; Retopology</h2>
+                    <p>We provide photogrammetry scanning of individual objects and large environments, delivering clean, production-ready 3D models optimized for any platform.</p>
+                    <a href="scan.html" class="btn btn-primary">Learn More</a>
+                </div>
+                <figure class="feature-media">
+                    <img src="img/beforeafterplane.png" alt="Before and after of an interior airplane scan and retopology">
+                    <figcaption class="feature-caption">Before and after of an interior airplane scan and retopology</figcaption>
+                </figure>
+            </div>
 
+            <div class="feature-row">
+                <div class="feature-text">
+                    <h2>Custom Environments</h2>
+                    <p>We design custom environments and scenes from scratch, combining original assets with scanned objects to maximize visual impact and authenticity.</p>
+                    <a href="custom.html" class="btn btn-primary">Learn More</a>
+                </div>
+                <figure class="feature-media">
+                    <img src="img/office 3-31-2.png" alt="Custom stylized scene using company colors throughout">
+                    <figcaption class="feature-caption">custom stylized scene using company colors throughout</figcaption>
+                </figure>
+            </div>
 
+            <div class="feature-row reverse">
+                <div class="feature-text">
+                    <h2>3D Printing &amp; Prototyping</h2>
+                    <p>We deliver comprehensive 3D printing services—from functional prototypes and custom awards to finished products with professional post-processing.</p>
+                    <a href="print.html" class="btn btn-primary">Learn More</a>
+                </div>
+                <figure class="feature-media">
+                    <img src="img/IMG_7247.jpg" alt="3D Printing example">
+                    <figcaption class="feature-caption">A caption for the above image.</figcaption>
+                </figure>
+            </div>
+        </section>
 
+        <footer class="site-footer">
+            <div class="footer-contact">
+                <p>&copy; 2025 Travis3D, Inc &middot; 704.998.1464 &middot; <a href="mailto:Stravis3D@gmail.com">Stravis3D@gmail.com</a></p>
+            </div>
+            <div class="footer-links">
+                <a href="https://travis3dart.etsy.com" target="_blank" rel="noopener noreferrer">Etsy</a>
+                <a href="https://instagram.com/travis3dclt" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+        </footer>
 
+    </div>
 
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+    <script>
+        (function () {
+            const navToggle = document.querySelector('.nav-toggle');
+            const navLinks = document.querySelector('.nav-links');
+            
+            navToggle.addEventListener('click', () => {
+                navToggle.classList.toggle('active');
+                navLinks.classList.toggle('open');
+            });
+
+            const slides = document.querySelectorAll('.hero-slide');
+            const dots = document.querySelectorAll('.hero-dot');
+            let current = Array.from(slides).findIndex(s => s.classList.contains('active'));
+            if (current === -1) current = 0;
+
+            function goTo(index) {
+                slides[current].classList.remove('active');
+                dots[current].classList.remove('active');
+                current = index;
+                slides[current].classList.add('active');
+                dots[current].classList.add('active');
+            }
+
+            dots.forEach(function (dot, i) {
+                dot.addEventListener('click', function () {
+                    goTo(i);
+                });
+            });
+
+            setInterval(function () {
+                goTo((current + 1) % slides.length);
+            }, 5000);
+        })();
+    </script>
 </body>
 
 </html>
