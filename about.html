@@ -113,26 +113,6 @@
 </body>
 
 </html>
-
-    <script>
-        const navToggle = document.querySelector('.nav-toggle');
-        const navLinks = document.querySelector('.nav-links');
-        const navItems = document.querySelectorAll('.nav-links a');
-        
-        function closeMenu() {
-            navToggle.classList.remove('active');
-            navLinks.classList.remove('open');
-        }
-        
-        navToggle.addEventListener('click', () => {
-            navToggle.classList.toggle('active');
-            navLinks.classList.toggle('open');
-        });
-        
-        navItems.forEach(item => {
-            item.addEventListener('click', closeMenu);
-        });
-    </script>
 </body>
 
 </html>
